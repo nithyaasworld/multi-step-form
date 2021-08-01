@@ -12,6 +12,7 @@ function App() {
   const secondStep = useRef();
   const thirdStep = useRef();
 
+  //To highlight the steps that are done
   useEffect(() => {
     if (currSection === "first-section") {
       firstStep.current.classList.add("active-step");
